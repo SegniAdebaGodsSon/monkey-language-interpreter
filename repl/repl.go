@@ -10,7 +10,7 @@ import (
 	"monkey/parser"
 )
 
-const PROMT = ">>"
+const PROMT = ">> "
 
 func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)
