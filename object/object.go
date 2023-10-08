@@ -159,7 +159,7 @@ type Hash struct {
 }
 
 func (h *Hash) Type() ObjectType { return HASH_OBJ }
-func (h *Hash) Instpect() string {
+func (h *Hash) Inspect() string {
 	var out bytes.Buffer
 
 	pairs := []string{}
